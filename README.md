@@ -67,7 +67,7 @@ The main MemoGuard policy is implemented in `policies/memo_guard.py`. Single-sce
 Clone the repository:
 
 ```bash
-git clone https://github.com/hetheiin/memo_guard.git
+git clone https://github.com/hetheiin/memoguard.git
 cd memoguard
 ```
 
