@@ -1,0 +1,60 @@
+{
+    "battery": {
+        "emergency_floor": 10.0,
+        "safe_floor": 25.0,
+        "recovery_amount": 5.0,
+        "step_reduction": 1.0
+    },
+    "visibility": {
+        "movement_success": {
+            "high": 1.0,
+            "low": 0.85,
+            "near_zero": 0.65
+        },
+        "recovery_amount": 0.05,
+        "cost_multiplier": {
+            "high": 1.0,
+            "low": 1.1,
+            "near_zero": 1.2
+        }
+    },
+    "obstacle": {
+        "movement_success": {
+            "none": 1.0,
+            "partial_blockage": 0.80,
+            "blocked": 0.0
+        },
+        "cost_multiplier": {
+            "none": 1.0,
+            "partial_blockage": 1.2,
+            "blocked": 1.0
+        }
+    },
+    "localization_confidence": {
+        "ranges": {
+            "high": [0.85, 1.0],
+            "medium": [0.6, 0.85],
+            "low": [0.0, 0.6]
+        },
+        "change_amount": {
+            "high": 0.05,
+            "low": -0.02,
+            "near_zero": -0.08
+        },
+        "movement_success": {
+            "high": 1.0,
+            "medium": 0.85,
+            "low": 0.7
+        }
+    },
+    "reasoning_cost": 1.0,
+    "memory_retrieval": {
+        "max_samples": 2000,
+        "seed": 42,
+        "weights": {
+            "one_step": 8.0,
+            "agent_status": 2.0
+        }
+    },
+    "max_steps": 50
+}

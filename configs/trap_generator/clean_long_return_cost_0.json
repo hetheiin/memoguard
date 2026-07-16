@@ -1,0 +1,20 @@
+{
+    "map_id": "Long_Return_Cost_0",
+    "enabled": {
+        "remove_alt_viewpoint": true,
+        "block_edges": true,
+        "reduce_battery": true
+    },
+    "remove_alt_viewpoint": {},
+    "block_edges": {
+        "count": 1,
+        "candidate_edges": [
+            ["Corridor_E", "Alt_Viewpoint"],
+            ["Corridor_E", "Corridor_F"]
+        ]
+    },
+    "reduce_battery": {
+        "amount": 15.0,
+        "minimum_battery": 50.0
+    }
+}

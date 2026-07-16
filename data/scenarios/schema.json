@@ -1,0 +1,5 @@
+{
+    "id": "...",
+    "instruction": "Inspect the target in Corridor_A and return to the base or a safe waypoint.",
+    "map_id": "Linear_Corridor_0",
+}

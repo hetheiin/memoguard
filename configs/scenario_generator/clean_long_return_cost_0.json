@@ -1,0 +1,58 @@
+{
+  "scenario_type": "clean_long_return_cost_0",
+  "map_id": "Long_Return_Cost_0",
+
+  "sampling_config": {
+    "battery_choices": [80, 85],
+    "inspect_target_costs": [2],
+
+    "localization_confidence_choices": [
+      0.8,
+      0.85
+    ],
+
+    "target_node_candidates": [
+      "Corridor_F"
+    ],
+
+    "alt_viewpoint_candidates": [
+      "Alt_Viewpoint"
+    ],
+
+    "visibility_config": {
+      "probs": {
+        "high": 0.55,
+        "low": 0.35,
+        "near_zero": 0.10
+      },
+
+      "fixed": {
+        "Base": "high",
+        "Hallway": "high",
+        "Safe_WP": "high"
+      }
+    },
+
+    "obstacle_config": {
+      "probs": {
+        "none": 0.65,
+        "partial_blockage": 0.35,
+        "blocked": 0.0
+      }
+    },
+
+    "edge_battery_cost_config": {
+      "level_probs": {
+        "low": 0.60,
+        "medium": 0.30,
+        "high": 0.10
+      },
+
+      "levels": {
+        "low": [1, 2],
+        "medium": [3, 4],
+        "high": [5]
+      }
+    }
+  }
+}

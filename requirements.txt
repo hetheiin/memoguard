@@ -1,0 +1,6 @@
+# Simulation progress and memory extraction
+tqdm>=4.65,<5
+
+# Scenario visualization
+matplotlib>=3.7,<4
+networkx>=3.0,<4

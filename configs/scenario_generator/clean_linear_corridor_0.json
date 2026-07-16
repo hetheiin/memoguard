@@ -1,0 +1,45 @@
+{
+  "scenario_type": "clean_linear_corridor_0",
+  "map_id": "Linear_Corridor_0",
+  "sampling_config": {
+    "battery_choices": [70, 75],
+    "localization_confidence_choices": [0.75, 0.80, 0.85],
+    "target_node_candidates": ["Corridor_C"],
+    "alt_viewpoint_candidates": ["Alt_Viewpoint"],
+    "inspect_target_costs": [2],
+
+    "visibility_config": {
+      "probs": {
+        "high": 0.45,
+        "low": 0.40,
+        "near_zero": 0.15
+      },
+      "fixed": {
+        "Base": "high",
+        "Hallway": "high",
+        "Safe_WP": "high"
+      }
+    },
+
+    "obstacle_config": {
+      "probs": {
+        "none": 0.60,
+        "partial_blockage": 0.40,
+        "blocked": 0.0
+      }
+    },
+
+    "edge_battery_cost_config": {
+      "level_probs": {
+        "low": 0.45,
+        "medium": 0.35,
+        "high": 0.20
+      },
+      "levels": {
+        "low": [1, 2],
+        "medium": [3, 4],
+        "high": [5]
+      }
+    }
+  }
+}

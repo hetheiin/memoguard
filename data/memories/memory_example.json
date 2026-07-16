@@ -1,0 +1,51 @@
+{
+  "retrieval_features": {
+    "node": "Hallway",
+    "visibility": "low",
+    "obstacle": "partial_blockage",
+    "edge_cost": 2.0,
+    "localization_confidence_level": "medium",
+    "battery_range": [
+      50,
+      55
+    ]
+  },
+  "action": "inspect_alt_viewpoint",
+  "reasoning": false,
+  "to_node": "Corridor_C",
+  "outcome_statistics": {
+    "success_count": 10,
+    "failure_count": 5,
+    "success_rate": 0.6666666666666666
+  },
+  "scenario_id": "clean_linear_corridor_0_10",
+  "instruction": "Inspect the target in Corridor_C and return to the base or a safe waypoint.",
+  "scenario_metadata": {
+    "target_node": "Corridor_C",
+    "safe_waypoint_adjacent_nodes": [
+      "Corridor_A"
+    ],
+    "alt_viewpoints": [
+      "Alt_Viewpoint"
+    ],
+    "inspect_target_cost": 2.0
+  },
+  "map_id": "Linear_Corridor_0",
+  "map_class": "Linear_Corridor",
+  "path_risk_profile": {
+    "outbound_risk": [
+      2,
+      0,
+      1,
+      0
+    ],
+    "return_risk": [
+      3,
+      0,
+      1,
+      0
+    ],
+    "outbound_edge_cost": 5.0,
+    "return_edge_cost": 9.0
+  }
+}

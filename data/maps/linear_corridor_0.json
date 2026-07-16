@@ -1,0 +1,87 @@
+{
+    "id": "Linear_Corridor_0",
+    "class": "Linear_Corridor",
+    "nodes": [
+        {
+            "id": "Base",
+            "class": "Base",
+            "visibility": null,
+            "has_alt_viewpoint": null,
+            "has_target": null
+        },
+        {
+            "id": "Hallway",
+            "class": "Hallway",
+            "visibility": null,
+            "has_alt_viewpoint": null,
+            "has_target": null
+        },
+        {
+            "id": "Corridor_A",
+            "class": "Corridor",
+            "visibility": null,
+            "has_alt_viewpoint": null,
+            "has_target": null
+        },
+        {
+            "id": "Corridor_B",
+            "class": "Corridor",
+            "visibility": null,
+            "has_alt_viewpoint": null,
+            "has_target": null
+        },
+        {
+            "id": "Corridor_C",
+            "class": "Corridor",
+            "visibility": null,
+            "has_alt_viewpoint": null,
+            "has_target": null
+        },
+        {
+            "id": "Safe_WP",
+            "class": "Safe_Waypoint",
+            "visibility": null,
+            "has_alt_viewpoint": null,
+            "has_target": null
+        },
+        {
+            "id": "Alt_Viewpoint",
+            "class": "Alternate_Viewpoint",
+            "visibility": null,
+            "has_alt_viewpoint": null,
+            "has_target": null
+        }
+    ],
+    "edges": [
+        {
+            "nodes": ["Base", "Hallway"],
+            "battery_cost": null,
+            "obstacle": null
+        },
+        {
+            "nodes": ["Hallway", "Corridor_A"],
+            "battery_cost": null,
+            "obstacle": null
+        },
+        {
+            "nodes": ["Corridor_A", "Corridor_B"],
+            "battery_cost": null,
+            "obstacle": null
+        },
+        {
+            "nodes": ["Corridor_B", "Corridor_C"],
+            "battery_cost": null,
+            "obstacle": null
+        },
+        {
+            "nodes": ["Corridor_A", "Safe_WP"],
+            "battery_cost": null,
+            "obstacle": null
+        },
+        {
+            "nodes": ["Corridor_B", "Alt_Viewpoint"],
+            "battery_cost": null,
+            "obstacle": null
+        }
+    ]
+}

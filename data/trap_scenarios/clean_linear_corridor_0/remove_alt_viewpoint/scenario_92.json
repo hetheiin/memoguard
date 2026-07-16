@@ -1,0 +1,119 @@
+{
+  "id": "clean_linear_corridor_0_92_remove_alt_viewpoint",
+  "instruction": "Inspect the target in Corridor_C and return to the base or a safe waypoint.",
+  "agent_initial_state": {
+    "start_node": "Base",
+    "battery": 70.0,
+    "localization_confidence": 0.8
+  },
+  "metadata": {
+    "target_node": "Corridor_C",
+    "safe_waypoint_adjacent_nodes": [
+      "Corridor_A"
+    ],
+    "alt_viewpoints": [],
+    "inspect_target_cost": 2.0,
+    "trap": {
+      "type": "remove_alt_viewpoint",
+      "source_id": "clean_linear_corridor_0_92"
+    }
+  },
+  "map_id": "Linear_Corridor_0",
+  "map_class": "Linear_Corridor",
+  "map_configuration": {
+    "nodes": [
+      {
+        "id": "Base",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Hallway",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Corridor_A",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Corridor_B",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Corridor_C",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": true
+      },
+      {
+        "id": "Safe_WP",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Alt_Viewpoint",
+        "visibility": "low",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      }
+    ],
+    "edges": [
+      {
+        "nodes": [
+          "Base",
+          "Hallway"
+        ],
+        "battery_cost": 4.0,
+        "obstacle": "none"
+      },
+      {
+        "nodes": [
+          "Hallway",
+          "Corridor_A"
+        ],
+        "battery_cost": 5.0,
+        "obstacle": "partial_blockage"
+      },
+      {
+        "nodes": [
+          "Corridor_A",
+          "Corridor_B"
+        ],
+        "battery_cost": 1.0,
+        "obstacle": "partial_blockage"
+      },
+      {
+        "nodes": [
+          "Corridor_B",
+          "Corridor_C"
+        ],
+        "battery_cost": 4.0,
+        "obstacle": "partial_blockage"
+      },
+      {
+        "nodes": [
+          "Corridor_A",
+          "Safe_WP"
+        ],
+        "battery_cost": 3.0,
+        "obstacle": "partial_blockage"
+      },
+      {
+        "nodes": [
+          "Corridor_B",
+          "Alt_Viewpoint"
+        ],
+        "battery_cost": 5.0,
+        "obstacle": "partial_blockage"
+      }
+    ]
+  }
+}

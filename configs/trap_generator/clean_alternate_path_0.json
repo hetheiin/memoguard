@@ -1,0 +1,20 @@
+{
+    "map_id": "Alternate_Path_0",
+    "enabled": {
+        "remove_alt_viewpoint": true,
+        "block_edges": true,
+        "reduce_battery": true
+    },
+    "remove_alt_viewpoint": {},
+    "block_edges": {
+        "count": 2,
+        "candidate_edges": [
+            ["Corridor_B", "Corridor_D"],
+            ["Corridor_C", "Corridor_D"]
+        ]
+    },
+    "reduce_battery": {
+        "amount": 15.0,
+        "minimum_battery": 50.0
+    }
+}

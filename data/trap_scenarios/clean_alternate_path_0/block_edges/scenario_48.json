@@ -1,0 +1,215 @@
+{
+  "id": "clean_alternate_path_0_48_block_edges",
+  "instruction": "Inspect the target in Corridor_G and return to the base or a safe waypoint.",
+  "agent_initial_state": {
+    "start_node": "Base",
+    "battery": 65.0,
+    "localization_confidence": 0.7
+  },
+  "metadata": {
+    "target_node": "Corridor_G",
+    "safe_waypoint_adjacent_nodes": [
+      "Corridor_C"
+    ],
+    "alt_viewpoints": [
+      "Alt_Viewpoint"
+    ],
+    "inspect_target_cost": 2.0,
+    "trap": {
+      "type": "block_edges",
+      "source_id": "clean_alternate_path_0_48"
+    }
+  },
+  "map_id": "Alternate_Path_0",
+  "map_class": "Alternate_Path",
+  "map_configuration": {
+    "nodes": [
+      {
+        "id": "Base",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Hallway",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Corridor_A",
+        "visibility": "low",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Corridor_B",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Corridor_C",
+        "visibility": "low",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Corridor_D",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Corridor_E",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Corridor_F",
+        "visibility": "low",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Corridor_G",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": true
+      },
+      {
+        "id": "Corridor_H",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Safe_WP",
+        "visibility": "high",
+        "has_alt_viewpoint": false,
+        "has_target": false
+      },
+      {
+        "id": "Alt_Viewpoint",
+        "visibility": "low",
+        "has_alt_viewpoint": true,
+        "has_target": false
+      }
+    ],
+    "edges": [
+      {
+        "nodes": [
+          "Base",
+          "Hallway"
+        ],
+        "battery_cost": 3.0,
+        "obstacle": "none"
+      },
+      {
+        "nodes": [
+          "Hallway",
+          "Corridor_A"
+        ],
+        "battery_cost": 2.0,
+        "obstacle": "none"
+      },
+      {
+        "nodes": [
+          "Corridor_A",
+          "Corridor_B"
+        ],
+        "battery_cost": 3.0,
+        "obstacle": "none"
+      },
+      {
+        "nodes": [
+          "Corridor_A",
+          "Corridor_C"
+        ],
+        "battery_cost": 3.0,
+        "obstacle": "partial_blockage"
+      },
+      {
+        "nodes": [
+          "Corridor_A",
+          "Corridor_E"
+        ],
+        "battery_cost": 1.0,
+        "obstacle": "none"
+      },
+      {
+        "nodes": [
+          "Corridor_B",
+          "Corridor_D"
+        ],
+        "battery_cost": 5.0,
+        "obstacle": "blocked"
+      },
+      {
+        "nodes": [
+          "Corridor_C",
+          "Corridor_D"
+        ],
+        "battery_cost": 1.0,
+        "obstacle": "blocked"
+      },
+      {
+        "nodes": [
+          "Corridor_C",
+          "Corridor_F"
+        ],
+        "battery_cost": 5.0,
+        "obstacle": "none"
+      },
+      {
+        "nodes": [
+          "Corridor_D",
+          "Corridor_H"
+        ],
+        "battery_cost": 2.0,
+        "obstacle": "partial_blockage"
+      },
+      {
+        "nodes": [
+          "Corridor_E",
+          "Corridor_F"
+        ],
+        "battery_cost": 5.0,
+        "obstacle": "partial_blockage"
+      },
+      {
+        "nodes": [
+          "Corridor_F",
+          "Corridor_G"
+        ],
+        "battery_cost": 5.0,
+        "obstacle": "none"
+      },
+      {
+        "nodes": [
+          "Corridor_G",
+          "Corridor_H"
+        ],
+        "battery_cost": 1.0,
+        "obstacle": "none"
+      },
+      {
+        "nodes": [
+          "Corridor_C",
+          "Safe_WP"
+        ],
+        "battery_cost": 5.0,
+        "obstacle": "none"
+      },
+      {
+        "nodes": [
+          "Corridor_F",
+          "Alt_Viewpoint"
+        ],
+        "battery_cost": 4.0,
+        "obstacle": "none"
+      }
+    ]
+  }
+}
