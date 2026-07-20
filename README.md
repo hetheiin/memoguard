@@ -8,7 +8,7 @@
 
 <p align="center">
 <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.11-blue.svg" alt="Python 3.11"></a>
-<a href="https://arxiv.org/abs/0000.00000"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv Paper"></a>
+<a href="https://arxiv.org/abs/2607.15589"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv Paper"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
 </p>
 
@@ -151,11 +151,14 @@ See [Extended Results](results.md) for breakdowns by topology family and memory-
 If you find MemoGuard useful in your research, please cite:
 
 ```bibtex
-@article{memoguard2026,
-  title   = {MemoGuard: An Adaptive Runtime for Guarding Against Memory Traps in Communication-Limited Robot Navigation},
-  author  = {Author Name},
-  journal = {IEEE Embedded Systems Letters},
-  year    = {2026}
+@misc{bhattacharjya2026memoguardadaptiveruntimeguarding,
+      title={MemoGuard: An Adaptive Runtime for Guarding Against Memory Traps in Communication-Limited Robot Navigation}, 
+      author={Rajat Bhattacharjya and Hyeonjong Ju and Sing-Yao Wu and Eli Bozorgzadeh and Nikil Dutt},
+      year={2026},
+      eprint={2607.15589},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2607.15589}, 
 }
 ```
 
