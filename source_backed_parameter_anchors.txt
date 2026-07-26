@@ -1,0 +1,14 @@
+Source-Backed Parameter Anchors
+The simulator uses controlled graph-world parameters to stress-test memory reuse. The following sources provide anchors for the selected parameter categories; they are not claimed to define a single calibrated physical deployment.
+
+[1] DJI Drone RTH Logic. https://repair.dji.com/help/content?customId=en-us03400006776&documentType=artical&lang=en&paperDocType=paper&re=US&spaceId=34
+
+[2] CORDIS SmokeBot summary. https://cordis.europa.eu/article/id/241251-stateoftheart-robot-to-better-assist-search-and-rescue-operations-in-lowvisibility-conditions
+
+[3] Maidana et al., Energy-Aware Path Planning for Autonomous Mobile Robot Navigation. https://cdn.aaai.org/ocs/18463/18463-79403-1-PB.pdf
+
+[4] Velmurugan et al., "Milliwatt ultrasound for navigation in visually degraded environments on palm-sized aerial robots," Science Robotics, 2026. https://www.science.org/doi/10.1126/scirobotics.adz9609
+
+[5] Olson, "Probabilistic Self-Localization for Mobile Robots," IEEE Transactions on Robotics and Automation, 2000. https://faculty.washington.edu/cfolson/papers/pdf/ra00.pdf
+
+[6] NVIDIA Jetson Xavier Series. https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/
