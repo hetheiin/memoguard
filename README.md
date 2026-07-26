@@ -146,6 +146,7 @@ Across all trap scenarios, MemoGuard:
 
 See [Extended Results](results.md) for breakdowns by topology family and memory-trap type.
 
+The simulator uses controlled graph-world parameters to stress-test memory reuse. The parameters are listed in [Source_Backed_Parameter_Anchors_File](source_backed_parameter_anchors.txt)
 ## Citation
 
 If you find MemoGuard useful in your research, please cite:
