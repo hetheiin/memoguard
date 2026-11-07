@@ -25,7 +25,7 @@
 - [Results](#results)
 
 ## News
-
+-**[2026/11]** MemoGuard is live on IEEE Xplore <a href="https://ieeexplore.ieee.org/document/11741109/">Published Version</a>.
 - **[2026/07]** MemoGuard is accepted to ESWEEK 2026 (CODES LBR) and will appear in IEEE Embedded Systems Letters (ESL).
 
 ## Overview
