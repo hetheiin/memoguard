@@ -152,15 +152,17 @@ The simulator uses controlled graph-world parameters to stress-test memory reuse
 If you find MemoGuard useful in your research, please cite:
 
 ```bibtex
-@misc{bhattacharjya2026memoguardadaptiveruntimeguarding,
-      title={MemoGuard: An Adaptive Runtime for Guarding Against Memory Traps in Communication-Limited Robot Navigation}, 
-      author={Rajat Bhattacharjya and Hyeonjong Ju and Sing-Yao Wu and Eli Bozorgzadeh and Nikil Dutt},
-      year={2026},
-      eprint={2607.15589},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2607.15589}, 
-}
+@ARTICLE{bhattacharjya2026memoguard,
+  author={Bhattacharjya, Rajat and Ju, Hyeonjong and Wu, Sing-Yao and Bozorgzadeh, Eli and Dutt, Nikil},
+  journal={IEEE Embedded Systems Letters}, 
+  title={MemoGuard: An Adaptive Runtime for Guarding Against Memory Traps in Communication-Limited Robot Navigation}, 
+  year={2026},
+  volume={18},
+  number={5},
+  pages={447-451},
+  keywords={Memory;Cognition;Cognitive systems;Robots;Batteries;Safety;Costing;Costs;Printing;Current;Embodied AI;episodic memory;mission-critical systems;robot navigation;safety–efficiency tradeoff},
+  doi={10.1109/LES.2026.3724555}}
+
 ```
 
 ## License
